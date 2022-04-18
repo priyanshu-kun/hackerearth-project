@@ -1,0 +1,71 @@
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+     fontSize: {
+      'super-tiny': '.6rem',
+      'tiny': '.8rem',
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.3rem',
+      '2xl': '1.5rem',
+      '3xl': '2rem',
+      '4xl': '2.5rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+      '7xl': '4.6rem',
+      '8xl': '6rem',
+      '9xl': '8rem',
+    }, 
+    screens: {
+      'tiny': '260px',
+      // => @media (min-width: 260px) { ... }
+
+      'normal': '360px',
+      // => @media (min-width: 360px) { ... }
+
+      'semiNormal': '420px',
+      // => @media (min-width: 360px) { ... }
+
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+      colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      accentColor: '#27C498',
+      backgroundColor: "#121212",
+      secondaryBackgroundColor: "#262626",
+      primaryTextColor: "#fff",
+      black: "#000",
+      white: "#fff",
+      secondaryTextColor: "#868686",
+      accentTextColor: "#FFD700"
+
+    },
+    extend: {
+      spacing: {
+        '25rem': '25rem',
+      },
+    maxWidth: {
+      '1200': '1200px',
+      '900': '900px',
+      '400': '400px'
+    }
+    },
+  },
+  plugins: [],
+}
