@@ -21,3 +21,8 @@ For creating an optimization build
 ![project image](https://raw.githubusercontent.com/priyanshuSharma-WebDev/hackerearth-project/master/Screenshot%20from%202022-04-19%2004-08-01.png)
 ---
 ### Mobile friendly
+
+![mobile](https://raw.githubusercontent.com/priyanshuSharma-WebDev/hackerearth-project/master/Screenshot%20from%202022-04-19%2019-38-29.png)
+---
+
+![tablet](https://raw.githubusercontent.com/priyanshuSharma-WebDev/hackerearth-project/master/Screenshot%20from%202022-04-19%2019-38-56.png)
